@@ -109,8 +109,6 @@ public class CalcAvgTemp extends Configured implements Tool {
         //设置reduce的个数
         job.setNumReduceTasks(5);
 
-        //设置Combiner类
-//        job.setCombinerClass();
         return job.waitForCompletion(true)?0:1;
     }
 
