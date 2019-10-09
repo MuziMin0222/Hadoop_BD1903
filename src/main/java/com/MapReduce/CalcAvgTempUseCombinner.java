@@ -67,8 +67,6 @@ public class CalcAvgTempUseCombinner extends Configured implements Tool {
             v2c.setAvg(avg);
             v2c.setNum(count);
 
-            System.out.println("================================combinner:"+count+"====================================================");
-
             context.write(k2c,v2c);
         }
     }
@@ -89,8 +87,6 @@ public class CalcAvgTempUseCombinner extends Configured implements Tool {
             }
             double avg = sum/count;
             v3.set(avg);
-
-            System.out.println("+++++++++++++++++++++++++++++++++++reduce："+count+"+++++++++++++++++++++++++++++++++++++++++++++++++++++");
 
             context.write(k2c,v3);
         }

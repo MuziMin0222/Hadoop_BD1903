@@ -8,6 +8,7 @@
     </JAVADOC>
     <SOURCES>
       <root url="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.9.2/hadoop-common-2.9.2-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.9.2/hadoop-common-2.9.2.jar!/" />
     </SOURCES>
   </library>
 </component>
