@@ -16,7 +16,7 @@ import java.io.IOException;
  * @filename:GetSidTemp.java
  * @create:2019.10.09.14:48:28
  * @auther:李煌民
- * @description:.获得气象站和温度数据
+ * @description:.作业一：获得气象站和温度数据
  **/
 public class GetSidTemp extends Configured{
     static class GetSidTempMapper extends Mapper<LongWritable, Text,Text, DoubleWritable>{
